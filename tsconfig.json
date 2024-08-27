@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": [
+      "es7"
+    ],
+    "declaration": true,
+    "sourceMap": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "lib/**/*",
+    "jest.config.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "typedocOptions": {
+    "entryPoints": [
+      "lib/index.ts"
+    ],
+    "out": "docs"
+  }
+}
