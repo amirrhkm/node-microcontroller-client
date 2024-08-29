@@ -3,7 +3,7 @@
 ### Project Setup
 1. Clone the repository
 
-    ```git clone https://github.com/amirrhkm/microcontroller-client.git```
+    ```git clone https://github.com/amirrhkm/node-microcontroller-client.git```
 
 2. Install the dependencies
 
@@ -22,3 +22,4 @@ After running the client, it will initiate the server, and ensure that the PTS-2
 2. PumpSuspend: Suspend the pump.
 3. PumpResume: Resume the pump.
 4. PumpEmergencyStop: Stop the pump despite the user.
+
