@@ -1,15 +1,27 @@
 ## This Module is an Example Client utilising the PTS-2 TypeScript Library API
 
 ### Project Setup
-1. Clone the repository
+1. Clone the PTS-2 API project repository
+
+    ```git clone https://gitlab.teratotech.com/slurp/hub/forecourt-pts2.git```
+
+2. Create a symlink in the global folder
+
+    ```npm link```
+
+3. Clone the PTS-2 client repository
 
     ```git clone https://github.com/amirrhkm/node-microcontroller-client.git```
 
-2. Install the dependencies
+4. Create a symbolic link from globally-installed package
+
+   ```npm link @ronpos-hub/forecourt-pts2```
+   
+5. Install the dependencies
 
     ```npm install```
 
-3. Run the client
+6. Run the client
 
     ```npx ts-node ./lib/start-client.ts```
 
